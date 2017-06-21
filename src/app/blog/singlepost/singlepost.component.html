@@ -1,0 +1,9 @@
+<div class="container-fluid body">
+  <div *ngFor="let p of post">
+    <div *ngIf="p._id===id" class="container post">
+      <h1>{{p.title}}</h1>
+      <p>{{p.created | date: 'medium'}}</p>
+      <p>{{p.content}}</p>
+      </div>
+  </div>
+</div>

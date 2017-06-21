@@ -1,0 +1,19 @@
+<div class="container">
+	<h2 class="text-center font-style">blog.</h2>
+	<div *ngFor="let post of posts; let i=index">
+		<div class="jumbotron" *ngIf="i===0">
+			<div class="container">
+				<h1>{{ post.title }}</h1>
+				<p>{{ post.created | date: 'medium' }}</p>
+				<p>{{ post.content.slice(0, 200) }}...</p>
+				<button class="btn btn-purple" routerLink="/blog/posts/{{post._id}}" routerLinkActive="active">Read The Rest</button>
+			</div>
+		</div>
+		<div *ngIf="i>0">
+			<h3>{{ post.title }}</h3>
+			<p>{{ post.created | date: 'medium' }}</p>
+			<p>{{ post.content.slice(0, 200) }}...</p>
+			<button class="btn btn-purple" routerLink="/blog/posts/{{post._id}}" routerLinkActive="active">Read The Rest</button>
+		</div>
+	</div>
+</div>

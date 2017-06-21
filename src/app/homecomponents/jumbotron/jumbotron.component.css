@@ -1,0 +1,7 @@
+.jumbotron-home {
+	background-image: url('http://localhost:4200/assets/img/road.png');
+	background-repeat: no-repeat;
+	background-position: 0% 60%;
+	background-size: cover;
+	color: white;
+}

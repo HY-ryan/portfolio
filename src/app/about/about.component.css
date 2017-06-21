@@ -1,0 +1,17 @@
+.font-style {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.logos {
+	background-color: darkgray;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.media-body {
+	font-size: 16px;
+	font-weight: 1px;
+	padding: 10px;
+}

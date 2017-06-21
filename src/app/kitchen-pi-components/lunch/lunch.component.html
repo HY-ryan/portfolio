@@ -1,0 +1,18 @@
+<div class="container-fluid body">
+	<div class="row text-center" *ngFor="let recipe of recipes">
+		<div class="panel panel-default" *ngIf="recipe.dishType === 'Lunch'">
+			<div class="panel-heading single-heading"><h2 class="font-style">{{ recipe.name }}</h2></div>
+			<div class="panel-body single-body">
+			<p><strong>It's what's for {{ recipe.dishType }}</strong></p>
+			<h4 class="font-style">Ingredients</h4>
+			<ul class="text-left" *ngFor="let ingredient of recipe.ingredients">
+				<li>{{ ingredient }}</li>
+			</ul>
+			<h4 class="font-style">Steps</h4>
+			<ul class="text-left" *ngFor="let step of recipe.steps">
+				<li>{{ step }}</li>
+			</ul>
+			</div>
+		</div>
+	</div>
+</div>

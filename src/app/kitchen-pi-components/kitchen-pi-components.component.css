@@ -1,0 +1,73 @@
+.body {
+/*	background-color: #b33b3b; */
+	min-height: 800px;
+	color: white;
+}
+
+.recipe-full-list {
+	width: 75%;
+	height: 50px;
+	background-color: #612323;
+}
+
+.single-recipe {
+	color: black;
+	margin-top: 50px;
+}
+
+.single-heading {
+	background-color: #612323;
+	color: white;
+}
+
+.single-body {
+	background-color: #943c3c;
+}
+
+.pi-buttons { 
+  color: #FFFFFF; 
+  background-color: #612323; 
+  border-color: #000000;
+  width: 100%;
+  margin-top: 15px; 
+} 
+ 
+.pi-buttons:hover, 
+.pi-buttons:focus, 
+.pi-buttons:active, 
+.pi-buttons.active, 
+.open .dropdown-toggle.pi-buttons { 
+  color: #FFFFFF; 
+  background-color: #943c3c; 
+  border-color: #000000; 
+} 
+ 
+.pi-buttons:active, 
+.pi-buttons.active, 
+.open .dropdown-toggle.pi-buttons { 
+  background-image: none; 
+} 
+ 
+.pi-buttons.disabled, 
+.pi-buttons[disabled], 
+fieldset[disabled] .pi-buttons, 
+.pi-buttons.disabled:hover, 
+.pi-buttons[disabled]:hover, 
+fieldset[disabled] .pi-buttons:hover, 
+.pi-buttons.disabled:focus, 
+.pi-buttons[disabled]:focus, 
+fieldset[disabled] .pi-buttons:focus, 
+.pi-buttons.disabled:active, 
+.pi-buttons[disabled]:active, 
+fieldset[disabled] .pi-buttons:active, 
+.pi-buttons.disabled.active, 
+.pi-buttons[disabled].active, 
+fieldset[disabled] .pi-buttons.active { 
+  background-color: #612323; 
+  border-color: #000000; 
+} 
+ 
+.pi-buttons .badge { 
+  color: #612323; 
+  background-color: #FFFFFF; 
+}
