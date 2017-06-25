@@ -1,5 +1,5 @@
 .pi-home {
-	background-image: url('http://localhost:4200/assets/img/spices.png');
+	background-image: url('/assets/img/spices.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 35px;

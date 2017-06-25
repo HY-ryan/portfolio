@@ -1,5 +1,5 @@
 .blog {
-	background-image: url('http://localhost:4200/assets/img/library.jpeg');
+	background-image: url('/assets/img/library.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 35px;

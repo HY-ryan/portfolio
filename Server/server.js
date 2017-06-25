@@ -15,11 +15,12 @@ const app = express();
 // connect to database
 // seperate this into a config file eventually
 const dbName = 'portfolio'
-const connectionString = 'mongodb://localhost:27017/' + dbName
+const connectionString = 'mongodb://0.0.0.0:27017/' + dbName
 mongoose.connect(connectionString);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
+
 app.use('/api', recipes); //route to recipes
 app.use('/api', blog); //route to blog
 app.use(contact); // route to contact
